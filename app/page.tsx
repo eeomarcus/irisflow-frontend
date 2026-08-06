@@ -5,7 +5,6 @@ import { SocialProof } from "@/components/sections/SocialProof"
 import { ProblemSolution } from "@/components/sections/ProblemSolution"
 import { HowItWorks } from "@/components/sections/HowItWorks"
 import { WhyUs } from "@/components/sections/WhyUs"
-import { Pricing } from "@/components/sections/Pricing"
 import { Testimonials } from "@/components/sections/Testimonials"
 import { Impact } from "@/components/sections/Impact"
 import { FinalCTA } from "@/components/sections/FinalCTA"
@@ -21,7 +20,6 @@ export default function Home() {
         <ProblemSolution />
         <HowItWorks />
         <WhyUs />
-        <Pricing />
         <Testimonials />
         <Impact />
         <FinalCTA />

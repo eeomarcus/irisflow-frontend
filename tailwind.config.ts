@@ -10,9 +10,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'iris-blue': '#1F4E79',
-        'iris-teal': '#00A693',
-        'iris-blue-mid': '#2E6FA3',
+        'iris-blue': '#11233F',
+        'iris-teal': '#2A6099',
+        'iris-blue-mid': '#2A6099',
+        'iris-blue-light': '#AACCEE',
         'dark-bg': '#0A0F1A',
         'dark-card': '#111827',
         'dark-border': '#1F2937',
@@ -40,8 +41,8 @@ const config: Config = {
           '50%': { transform: 'translateY(-10px)' },
         },
         glow: {
-          from: { boxShadow: '0 0 20px #00A69344' },
-          to: { boxShadow: '0 0 40px #00A69388' },
+          from: { boxShadow: '0 0 20px #2A609944' },
+          to: { boxShadow: '0 0 40px #2A609988' },
         },
         'pulse-dot': {
           '0%, 100%': { opacity: '1', transform: 'scale(1)' },
@@ -49,7 +50,7 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        'gradient-mesh': 'radial-gradient(at 40% 20%, #1F4E7920 0px, transparent 50%), radial-gradient(at 80% 0%, #00A69310 0px, transparent 50%), radial-gradient(at 0% 50%, #2E6FA310 0px, transparent 50%)',
+        'gradient-mesh': 'radial-gradient(at 40% 20%, #11233F20 0px, transparent 50%), radial-gradient(at 80% 0%, #2A609910 0px, transparent 50%), radial-gradient(at 0% 50%, #2A609910 0px, transparent 50%)',
       },
     },
   },

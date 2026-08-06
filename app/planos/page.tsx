@@ -94,75 +94,7 @@ export default function Planos() {
         <Pricing />
 
         {/* Tabela Comparativa de Recursos */}
-        <section className="py-16 bg-slate-50 dark:bg-dark-card/30 border-t border-slate-200/50 dark:border-slate-800/50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-2xl sm:text-3xl font-display font-black text-iris-blue dark:text-white mb-3">
-                Comparativo detalhado de recursos
-              </h2>
-              <p className="text-slate-450 dark:text-slate-500 font-body text-sm sm:text-base">
-                Veja as especificações completas de cada modalidade de plano.
-              </p>
-            </div>
-
-            {/* Tabela Responsiva */}
-            <div className="overflow-x-auto rounded-2xl border border-slate-200/60 dark:border-slate-800 bg-white dark:bg-dark-card shadow-sm">
-              <table className="w-full text-left border-collapse">
-                <thead>
-                  <tr className="border-b border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/60">
-                    <th className="p-4 sm:p-5 text-xs font-bold text-slate-450 uppercase font-display tracking-wider">Recurso</th>
-                    <th className="p-4 sm:p-5 text-xs font-bold text-slate-800 dark:text-slate-200 uppercase font-display tracking-wider text-center">Familiar</th>
-                    <th className="p-4 sm:p-5 text-xs font-bold text-slate-800 dark:text-slate-200 uppercase font-display tracking-wider text-center">Clínica</th>
-                    <th className="p-4 sm:p-5 text-xs font-bold text-slate-800 dark:text-slate-200 uppercase font-display tracking-wider text-center">Hospitalar</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-slate-100 dark:divide-slate-800/60">
-                  {comparison.map((item) => (
-                    <tr key={item.feature} className="hover:bg-slate-50/50 dark:hover:bg-slate-900/10">
-                      <td className="p-4 sm:p-5 text-xs sm:text-sm font-semibold text-slate-700 dark:text-slate-300 font-body">
-                        {item.feature}
-                      </td>
-                      <td className="p-4 sm:p-5 text-center">
-                        {typeof item.familiar === "boolean" ? (
-                          item.familiar ? (
-                            <Check className="w-5 h-5 text-iris-teal mx-auto stroke-[2.5]" />
-                          ) : (
-                            <span className="text-slate-300 dark:text-slate-700">—</span>
-                          )
-                        ) : (
-                          <span className="text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-300 font-body">{item.familiar}</span>
-                        )}
-                      </td>
-                      <td className="p-4 sm:p-5 text-center">
-                        {typeof item.clinica === "boolean" ? (
-                          item.clinica ? (
-                            <Check className="w-5 h-5 text-iris-teal mx-auto stroke-[2.5]" />
-                          ) : (
-                            <span className="text-slate-300 dark:text-slate-700">—</span>
-                          )
-                        ) : (
-                          <span className="text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-300 font-body">{item.clinica}</span>
-                        )}
-                      </td>
-                      <td className="p-4 sm:p-5 text-center">
-                        {typeof item.hospitalar === "boolean" ? (
-                          item.hospitalar ? (
-                            <Check className="w-5 h-5 text-iris-teal mx-auto stroke-[2.5]" />
-                          ) : (
-                            <span className="text-slate-300 dark:text-slate-700">—</span>
-                          )
-                        ) : (
-                          <span className="text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-300 font-body">{item.hospitalar}</span>
-                        )}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
+        
         {/* Perguntas Frequentes (FAQ) */}
         <section className="py-20 bg-white dark:bg-dark-bg transition-colors">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

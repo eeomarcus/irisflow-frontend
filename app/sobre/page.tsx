@@ -32,22 +32,22 @@ export default function Sobre() {
 
   const team = [
     {
-      name: "Dr. Thiago Dias",
+      name: "Gabriel Zambe",
       role: "Fundador & CEO",
       bio: "Doutor em Visão Computacional pela USP. Especialista em interfaces cérebro-computador e tecnologia assistiva.",
-      initials: "TD",
+      initials: "GZ",
     },
     {
-      name: "Amanda Souza",
-      role: "Diretora de UX & Acessibilidade",
+      name: "Marcus Vinicius Duarte",
+      role: "CTO",
       bio: "Designer especialista em interfaces acessíveis e fonoaudiologia clínica com 8 anos de experiência em reabilitação.",
-      initials: "AS",
+      initials: "MV",
     },
     {
-      name: "Ricardo Mendes",
-      role: "Líder de IA",
+      name: "Giulia Canioli",
+      role: "COO",
       bio: "Ex-pesquisador de IA aplicada à saúde. Responsável pelo algoritmo de rastreamento ocular e calibração inteligente.",
-      initials: "RM",
+      initials: "GC",
     },
   ]
 

@@ -159,42 +159,13 @@ export default function Cadastro() {
           </div>
 
           <div className="space-y-5 pt-8">
-            <div className="flex items-start gap-3">
-              <span className="flex-shrink-0 w-5 h-5 rounded-full bg-white/20 text-white flex items-center justify-center mt-0.5 border border-white/30 font-bold">
-                ✓
-              </span>
-              <span className="text-sm font-body text-emerald-50 leading-normal">
-                <strong>30 dias de trial completo</strong> sem cartão de crédito
-              </span>
-            </div>
-            <div className="flex items-start gap-3">
-              <span className="flex-shrink-0 w-5 h-5 rounded-full bg-white/20 text-white flex items-center justify-center mt-0.5 border border-white/30 font-bold">
-                ✓
-              </span>
-              <span className="text-sm font-body text-emerald-50 leading-normal">
-                Suporte de onboarding via WhatsApp para famílias
-              </span>
-            </div>
-            <div className="flex items-start gap-3">
-              <span className="flex-shrink-0 w-5 h-5 rounded-full bg-white/20 text-white flex items-center justify-center mt-0.5 border border-white/30 font-bold">
-                ✓
-              </span>
-              <span className="text-sm font-body text-emerald-50 leading-normal">
-                Cancelamento com apenas um clique na área logada
-              </span>
-            </div>
+  
+          
           </div>
         </div>
 
         {/* Depoimento curto */}
-        <div className="relative z-10 border-t border-white/20 pt-6">
-          <p className="text-xs italic text-emerald-100/90 leading-relaxed font-body">
-            "Finalmente uma solução que consigo indicar para as famílias sem constrangimento pelo preço. O suporte fez toda a diferença."
-          </p>
-          <span className="block text-[10px] font-bold text-white mt-2 font-display uppercase tracking-wider">
-            — Ana Paula, Terapeuta Ocupacional
-          </span>
-        </div>
+      
       </div>
 
       {/* FORMULÁRIO (Direita) */}

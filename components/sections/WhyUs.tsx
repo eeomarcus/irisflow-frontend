@@ -104,7 +104,7 @@ export function WhyUs() {
                 className="glassmorphism rounded-2xl p-8 hover:bg-white/10 dark:hover:bg-slate-900/40 hover:-translate-y-1.5 transition-all duration-300 group border border-white/10"
               >
                 {/* Ícone com Glow */}
-                <div className="w-12 h-12 rounded-2xl bg-iris-teal/20 text-iris-teal flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-[0_0_15px_rgba(0,166,147,0.2)] group-hover:shadow-[0_0_20px_rgba(0,166,147,0.4)]">
+                <div className="w-12 h-12 rounded-2xl bg-iris-teal/20 text-iris-teal flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-[0_0_15px_rgba(42,96,153,0.2)] group-hover:shadow-[0_0_20px_rgba(42,96,153,0.4)]">
                   <Icon className="w-5 h-5" />
                 </div>
 

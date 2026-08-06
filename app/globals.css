@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-iris-blue: #1f4e79;
-  --color-iris-teal: #00a693;
-  --color-iris-blue-mid: #2e6fa3;
+  --color-iris-blue: #11233f;
+  --color-iris-teal: #2a6099;
+  --color-iris-blue-mid: #2a6099;
+  --color-iris-blue-light: #aaccee;
   --color-dark-bg: #0a0f1a;
   --color-dark-card: #111827;
   --color-dark-border: #1f2937;
@@ -38,10 +39,10 @@
   }
   @keyframes glow {
     from {
-      box-shadow: 0 0 20px #00a69344;
+      box-shadow: 0 0 20px #2a609944;
     }
     to: {
-      box-shadow: 0 0 40px #00a69388;
+      box-shadow: 0 0 40px #2a609988;
     }
   }
   @keyframes pulse-dot {
@@ -82,16 +83,16 @@ body {
 /* Utilitários Premium */
 .bg-gradient-mesh {
   background-color: var(--background);
-  background-image: 
-    radial-gradient(at 40% 20%, rgba(31, 78, 121, 0.15) 0px, transparent 50%), 
-    radial-gradient(at 80% 0%, rgba(0, 166, 147, 0.12) 0px, transparent 50%), 
-    radial-gradient(at 0% 50%, rgba(46, 111, 163, 0.1) 0px, transparent 50%);
+  background-image:
+    radial-gradient(at 40% 20%, rgba(17, 35, 63, 0.15) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(42, 96, 153, 0.12) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(42, 96, 153, 0.1) 0px, transparent 50%);
 }
 
 .dark .bg-gradient-mesh {
-  background-image: 
-    radial-gradient(at 40% 20%, rgba(31, 78, 121, 0.25) 0px, transparent 50%), 
-    radial-gradient(at 80% 0%, rgba(0, 166, 147, 0.18) 0px, transparent 50%), 
+  background-image:
+    radial-gradient(at 40% 20%, rgba(17, 35, 63, 0.25) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(42, 96, 153, 0.18) 0px, transparent 50%),
     radial-gradient(at 0% 50%, rgba(10, 15, 26, 0.9) 0px, transparent 50%);
 }
 
@@ -125,7 +126,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 166, 147, 0.4);
+  background: rgba(42, 96, 153, 0.4);
 }
 
 /* Animação Marquee Infinito */

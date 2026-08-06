@@ -88,21 +88,21 @@ export default function Dashboard() {
 
       if (!hasCameraAccess) {
         // Se sem câmera, desenha um contorno de rosto virtual
-        ctx.strokeStyle = "rgba(0, 166, 147, 0.25)"
+        ctx.strokeStyle = "rgba(42, 96, 153, 0.25)"
         ctx.lineWidth = 2
         ctx.beginPath()
         ctx.ellipse(canvas.width / 2, canvas.height / 2, 70, 95, 0, 0, 2 * Math.PI)
         ctx.stroke()
 
         // Desenha olhos virtuais
-        ctx.fillStyle = "rgba(0, 166, 147, 0.4)"
+        ctx.fillStyle = "rgba(42, 96, 153, 0.4)"
         ctx.beginPath()
         ctx.arc(canvas.width / 2 - 25, canvas.height / 2 - 15, 6, 0, 2 * Math.PI)
         ctx.arc(canvas.width / 2 + 25, canvas.height / 2 - 15, 6, 0, 2 * Math.PI)
         ctx.fill()
 
         // Linhas de escaneamento facial
-        ctx.strokeStyle = "rgba(0, 166, 147, 0.4)"
+        ctx.strokeStyle = "rgba(42, 96, 153, 0.4)"
         ctx.lineWidth = 1
         ctx.beginPath()
         const scanY = (Date.now() / 25) % canvas.height
@@ -112,8 +112,8 @@ export default function Dashboard() {
       }
 
       // Desenha e conecta a malha de pontos simulada
-      ctx.fillStyle = hasCameraAccess ? "rgba(16, 185, 129, 0.8)" : "rgba(0, 166, 147, 0.7)"
-      ctx.strokeStyle = hasCameraAccess ? "rgba(16, 185, 129, 0.25)" : "rgba(0, 166, 147, 0.15)"
+      ctx.fillStyle = hasCameraAccess ? "rgba(16, 185, 129, 0.8)" : "rgba(42, 96, 153, 0.7)"
+      ctx.strokeStyle = hasCameraAccess ? "rgba(16, 185, 129, 0.25)" : "rgba(42, 96, 153, 0.15)"
       ctx.lineWidth = 1
 
       points.forEach((point, idx) => {

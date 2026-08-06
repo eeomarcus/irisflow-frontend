@@ -73,16 +73,6 @@ export function Hero() {
           
           {/* TEXT (Left column) */}
           <div className="lg:col-span-6 space-y-6 text-center lg:text-left">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-1.5 px-3 py-1 bg-iris-teal/10 border border-iris-teal/30 text-iris-teal rounded-full text-xs font-semibold uppercase tracking-wider animate-pulse"
-            >
-              <span className="w-1.5 h-1.5 rounded-full bg-iris-teal inline-block" />
-              Tecnologia assistiva brasileira
-            </motion.div>
-
             <motion.h1
               initial={{ opacity: 0, y: 25 }}
               animate={{ opacity: 1, y: 0 }}
@@ -110,9 +100,6 @@ export function Hero() {
               className="flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-4 text-xs font-semibold"
             >
               {[
-                "95% mais barato",
-                "PT-BR nativo",
-                "Webcam a partir de R$ 80",
               ].map((chip) => (
                 <div
                   key={chip}
@@ -177,12 +164,9 @@ export function Hero() {
                   <div className="w-3 h-3 rounded-full bg-red-500" />
                   <div className="w-3 h-3 rounded-full bg-yellow-500" />
                   <div className="w-3 h-3 rounded-full bg-green-500" />
-                  <span className="text-xs text-slate-400 font-mono ml-2">IrisFlow Desktop v1.4</span>
+                
                 </div>
-                <div className="flex items-center gap-1.5 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-600 dark:text-emerald-400 px-2 py-0.5 rounded-full text-[10px] font-bold border border-emerald-200/50">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping inline-block" />
-                  ● Rastreando íris — 98% confiança
-                </div>
+      
               </div>
 
               {/* Caixa de Texto Digitado */}
@@ -204,7 +188,7 @@ export function Hero() {
                     key={char}
                     className={`h-11 sm:h-12 flex items-center justify-center rounded-lg font-bold text-sm transition-all border ${
                       activeKey === char
-                        ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(0,166,147,0.5)] scale-95"
+                        ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(42,96,153,0.5)] scale-95"
                         : "bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-iris-teal/50"
                     }`}
                   >
@@ -217,7 +201,7 @@ export function Hero() {
                     key={char}
                     className={`h-11 sm:h-12 flex items-center justify-center rounded-lg font-bold text-sm transition-all border ${
                       activeKey === char
-                        ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(0,166,147,0.5)] scale-95"
+                        ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(42,96,153,0.5)] scale-95"
                         : "bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-iris-teal/50"
                     }`}
                   >
@@ -230,7 +214,7 @@ export function Hero() {
                     key={char}
                     className={`h-11 sm:h-12 flex items-center justify-center rounded-lg font-bold text-sm transition-all border ${
                       activeKey === char
-                        ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(0,166,147,0.5)] scale-95"
+                        ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(42,96,153,0.5)] scale-95"
                         : "bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-iris-teal/50"
                     }`}
                   >
@@ -243,7 +227,7 @@ export function Hero() {
                     key={char}
                     className={`h-11 sm:h-12 flex items-center justify-center rounded-lg font-bold text-sm transition-all border ${
                       activeKey === char
-                        ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(0,166,147,0.5)] scale-95"
+                        ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(42,96,153,0.5)] scale-95"
                         : "bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-iris-teal/50"
                     }`}
                   >
@@ -255,7 +239,7 @@ export function Hero() {
                 <div
                   className={`h-11 sm:h-12 col-span-3 flex items-center justify-center rounded-lg font-bold text-xs transition-all border ${
                     activeKey === "SPACE"
-                      ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(0,166,147,0.5)] scale-95"
+                      ? "bg-iris-teal text-white border-iris-teal shadow-[0_0_15px_rgba(42,96,153,0.5)] scale-95"
                       : "bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-800"
                   }`}
                 >

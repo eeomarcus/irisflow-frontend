@@ -104,7 +104,7 @@ export function Header() {
                 </Link>
                 <Link
                   href="/cadastro"
-                  className="inline-flex items-center justify-center px-4 py-2 bg-iris-teal text-white rounded-lg text-sm font-semibold hover:bg-iris-teal/95 hover:shadow-[0_0_20px_rgba(0,166,147,0.4)] transition-all cursor-pointer"
+                  className="inline-flex items-center justify-center px-4 py-2 bg-iris-teal text-white rounded-lg text-sm font-semibold hover:bg-iris-teal/95 hover:shadow-[0_0_20px_rgba(42,96,153,0.4)] transition-all cursor-pointer"
                 >
                   Começar grátis
                 </Link>
