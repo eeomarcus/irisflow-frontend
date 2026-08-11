@@ -42,62 +42,6 @@ export function Impact() {
     { id: "ODS 17", name: "Parcerias e Meios de Implementação", color: "bg-blue-800 dark:bg-blue-900" },
   ]
 
-  return (
-    <section id="impacto" className="py-24 bg-white dark:bg-dark-bg transition-colors duration-200 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
-          {/* Métricas (Coluna Esquerda) */}
-          <div className="grid grid-cols-2 gap-6 sm:gap-8 lg:col-span-7">
-            {metrics.map((metric) => (
-              <div
-                key={metric.desc}
-                className="bg-slate-50 dark:bg-dark-card border border-slate-200/50 dark:border-slate-800 p-6 sm:p-8 rounded-2xl transition-all duration-300 hover:shadow-sm"
-              >
-                <div className="text-4xl sm:text-5xl font-display font-black text-iris-teal mb-3 tracking-tight">
-                  <Counter value={metric.value} suffix={metric.suffix} />
-                </div>
-                <p className="text-xs sm:text-sm font-body text-slate-500 dark:text-slate-400 leading-relaxed font-semibold">
-                  {metric.desc}
-                </p>
-              </div>
-            ))}
-          </div>
 
-          {/* Texto de Propósito + Badges ODS (Coluna Direita) */}
-          <div className="lg:col-span-5 space-y-6">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-iris-blue/10 border border-iris-blue/20 text-iris-blue dark:text-iris-teal dark:bg-iris-teal/10 dark:border-iris-teal/20 rounded-full text-xs font-semibold uppercase tracking-wider">
-              Impacto ESG & Social
-            </div>
-            
-            <h2 className="text-3xl sm:text-4xl font-display font-black text-iris-blue dark:text-white leading-tight">
-              Tecnologia com propósito real.
-            </h2>
-            
-            <p className="text-slate-650 dark:text-slate-350 font-body text-base sm:text-lg leading-relaxed">
-              Cada licença vendida na modalidade comercial ajuda a financiar uma licença gratuita para pacientes do SUS pelo programa <strong className="text-iris-teal font-bold">IrisFlow Doa</strong>. Porque acreditamos que o acesso à comunicação e à dignidade é um direito humano básico, não um privilégio financeiro.
-            </p>
 
-            <div className="pt-4 space-y-3">
-              <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 font-display">
-                Alinhado com os Objetivos de Desenvolvimento Sustentável da ONU
-              </h4>
-              <div className="flex flex-wrap gap-2.5">
-                {odsBadges.map((ods) => (
-                  <span
-                    key={ods.id}
-                    className={`inline-flex items-center px-3 py-1.5 rounded-lg text-xs font-bold text-white shadow-sm border border-black/10 select-none cursor-default ${ods.color}`}
-                    title={ods.name}
-                  >
-                    {ods.id} · {ods.name}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-  )
 }
