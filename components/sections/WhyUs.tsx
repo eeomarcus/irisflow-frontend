@@ -21,11 +21,8 @@ export function WhyUs() {
       title: "Sem hardware especial",
       description: "Esqueça óculos pesados ou barras sensoras. Funciona em qualquer webcam convencional USB.",
     },
-    {
-      icon: Brain,
-      title: "IA conversacional",
-      description: "Chatbot com GPT-4o integrado para predição natural de frases complexas do cotidiano.",
-    },
+    
+
     {
       icon: MessageSquareCode,
       title: "WhatsApp integrado",

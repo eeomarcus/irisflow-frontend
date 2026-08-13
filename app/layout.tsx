@@ -18,13 +18,13 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "IrisFlow — Comunicação Assistiva por Rastreamento Ocular",
+  title: "Transformando olhares em liberdade.",
   description:
     "Plataforma SaaS brasileira de tecnologia assistiva para pessoas com ELA e tetraplegia. Eye tracking via webcam comum. 10x mais barato. PT-BR nativo.",
   keywords:
     "tecnologia assistiva, eye tracking, ELA, tetraplegia, comunicação alternativa, acessibilidade",
   openGraph: {
-    title: "IrisFlow — Devolva a voz a quem não pode mais falar",
+    title: "IrisFlow — Transformando olhares em liberdade.",
     description:
       "Eye tracking via webcam. A partir de R$ 79/mês. Teste grátis por 30 dias.",
     url: "https://irisflow.com.br",

@@ -79,8 +79,8 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-display font-black leading-tight text-iris-blue dark:text-white"
             >
-              Devolva a voz a <br className="hidden sm:inline" />
-              quem <span className="text-iris-teal relative">não pode mais falar.</span>
+              Transformando olhares em <br className="hidden sm:inline" />
+             <span className="text-iris-teal relative">liberdade.</span>
             </motion.h1>
 
             <motion.p
@@ -89,7 +89,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-base sm:text-lg font-body text-slate-600 dark:text-slate-300 max-w-xl mx-auto lg:mx-0 leading-relaxed"
             >
-              IrisFlow usa o movimento da íris via webcam comum para traduzir olhares em palavras, voz e mensagens — sem hardware caro, sem barreiras.
+              A IrisFlow utiliza Inteligência Artificial e apenas uma webcam para devolver autonomia digital a pessoas com limitações motoras.
             </motion.p>
 
             {/* Destaque Numérico */}
