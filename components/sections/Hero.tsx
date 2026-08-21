@@ -127,7 +127,7 @@ export function Hero() {
               </Link>
               
               <Link
-                href="/dashboard"
+                href="/"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-slate-350 dark:border-slate-700 hover:border-iris-blue dark:hover:border-iris-teal text-slate-700 dark:text-slate-300 font-bold rounded-xl transition-colors cursor-pointer text-base bg-white/20 dark:bg-transparent"
               >
                 <Play className="w-5 h-5 text-iris-teal fill-iris-teal" />

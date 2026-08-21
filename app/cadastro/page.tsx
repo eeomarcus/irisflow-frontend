@@ -41,7 +41,7 @@ export default function Cadastro() {
   // Redireciona se logado
   useEffect(() => {
     if (user) {
-      router.push("/dashboard")
+      router.push("/")
     }
   }, [user, router])
 

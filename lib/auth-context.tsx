@@ -60,7 +60,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setUser(newUser)
     setLoading(false)
     toast.success(`Bem-vindo de volta, ${formattedName}!`)
-    router.push("/dashboard")
+    router.push("/")
     return true
   }
 
@@ -81,7 +81,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setUser(newUser)
     setLoading(false)
     toast.success("Conta criada com sucesso! Aproveite seus 30 dias grátis.")
-    router.push("/dashboard")
+    router.push("/")
     return true
   }
 

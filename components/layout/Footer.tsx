@@ -47,7 +47,7 @@ export function Footer() {
       links: [
         { name: "Recursos", href: "/#features" },
         { name: "Planos", href: "/planos" },
-        { name: "Demonstração", href: "/dashboard" },
+        { name: "Download App", href: "/" },
         { name: "Downloads", href: "#" },
       ],
     },
@@ -144,7 +144,7 @@ export function Footer() {
             <p>CNPJ 45.123.456/0001-89 · São Paulo, SP</p>
           </div>
           <div className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 dark:bg-dark-bg border border-slate-200/50 dark:border-slate-800/50 rounded-full">
-            <span>Feito com ❤️ no Brasil</span>
+            <span>Feito com amor no Brasil</span>
           </div>
         </div>
       </div>

@@ -59,8 +59,8 @@ export default function Planos() {
       answer: "Ao iniciar o aplicativo, o usuário passa por um processo de calibração rápido de 1 minuto: basta olhar fixamente para alguns pontos coloridos que piscam nos cantos da tela. O algoritmo mapeia os contornos faciais e ajusta a sensibilidade para o padrão de olhar daquele usuário.",
     },
     {
-      question: "Posso cancelar minha assinatura a qualquer momento?",
-      answer: "Sim. Nossos planos são mensais ou anuais sem contratos de fidelidade ou taxas de cancelamento. Você pode cancelar sua assinatura na área de configurações do dashboard com apenas um clique e continuará com acesso até o fim do ciclo já pago.",
+      question: "Posso cancelar a qualquer momento?",
+      answer: "Sim. Nossos planos são mensais ou anuais sem contratos de fidelidade ou taxas de cancelamento. Você pode cancelar sua assinatura na área de configurações do aplicativo com apenas um clique e continuará com acesso até o fim do ciclo já pago.",
     },
     {
       question: "O IrisFlow é compatível com quais sistemas?",

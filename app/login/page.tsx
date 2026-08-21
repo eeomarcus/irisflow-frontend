@@ -22,7 +22,7 @@ export default function Login() {
   // Redireciona se já estiver autenticado
   useEffect(() => {
     if (user) {
-      router.push("/dashboard")
+      router.push("/")
     }
   }, [user, router])
 

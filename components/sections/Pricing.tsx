@@ -16,7 +16,7 @@ export function Pricing() {
       description: "Para pacientes e famílias em casa",
       features: [
         "1 dispositivo ativo",
-        "Acesso ao dashboard web completo",
+        "Acesso completo via App",
         "Teclado virtual + voz PT-BR nativa",
         "Chatbot com IA GPT-4o",
         "Integração de envio WhatsApp",

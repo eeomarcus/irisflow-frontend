@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X, LogIn, LayoutDashboard, LogOut } from "lucide-react"
+import { Menu, X, LogIn, LogOut, Smartphone } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Logo } from "@/components/common/Logo"
 import { ThemeToggle } from "@/components/common/ThemeToggle"
@@ -80,11 +80,11 @@ export function Header() {
             {user ? (
               <div className="flex items-center gap-3">
                 <Link
-                  href="/dashboard"
+                  href="/"
                   className="inline-flex items-center gap-1.5 px-4 py-2 bg-iris-teal text-white rounded-lg text-sm font-semibold hover:bg-iris-teal/90 transition-colors shadow-sm cursor-pointer"
                 >
-                  <LayoutDashboard className="w-4 h-4" />
-                  Painel
+                  <Smartphone className="w-4 h-4" />
+                  App
                 </Link>
                 <button
                   onClick={logout}
@@ -175,12 +175,12 @@ export function Header() {
                       Logado como: <strong className="text-slate-800 dark:text-slate-200">{user.name}</strong>
                     </div>
                     <Link
-                      href="/dashboard"
+                      href="/"
                       onClick={() => setIsOpen(false)}
                       className="flex items-center justify-center gap-2 w-full py-2.5 bg-iris-teal text-white rounded-lg font-semibold hover:bg-iris-teal/90 transition-colors"
                     >
-                      <LayoutDashboard className="w-4 h-4" />
-                      Ir para o Painel
+                      <Smartphone className="w-4 h-4" />
+                      Ir para o App
                     </Link>
                     <button
                       onClick={() => {
